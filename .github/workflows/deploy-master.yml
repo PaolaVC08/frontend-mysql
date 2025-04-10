@@ -2,6 +2,7 @@ name: CI/CD deploy-mysql master
 on: 
   push:
     branches: [ "master"]
+    
   #pull_request:
    # branches: [ "master"]
 jobs:
