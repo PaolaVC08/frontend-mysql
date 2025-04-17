@@ -1,4 +1,4 @@
-var url = "https://mysql-restapi-5t45.onrender.com/api/users";
+var url = "https://mysql-restapi-5t45.onrender.com/api/users";//cambio
 
 function postUser() {
   console.log(url);
