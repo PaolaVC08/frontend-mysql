@@ -23,7 +23,8 @@ function postUser() {
 	  contentType: 'application/json',
     	  success: function (data){
         	console.log(data);
-          $('#resultado').html(JSON.stringify(data.user));
+	    getUsers(); 
+          //$('#resultado').html(JSON.stringify(data.user));
           resetForm(); 
 	  },
           data: JSON.stringify(myuser)
